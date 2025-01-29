@@ -5,6 +5,9 @@
 Este error, dados varios posts que he podido ver en distintos foros, se refiere a procesos interferiendo con virtualbox, pueden checar [este post](https://forums.virtualbox.org/viewtopic.php?t=110746) en los foros oficiales de VirtualBox recomendando desinstalar VBox y borrar los drivers que instala este.
 Personalmente recomiendo añadir excepciones a sus antivirus de ser necesario asi como verificar que el _application sandboxing_ de Windows 11 este desactivado y/o verificar que VirtualBox este fuera de este.
 
+### Meditación gurú 🤯
+Según [este post](https://forums.virtualbox.org/viewtopic.php?t=108602), asi como el error anterior, es un problema documentado por Oracle en el cual el antivirus interviene en el programa.
+
 ## Errores de red.
 ### No hay dirección IP despues de haber instalado ubuntu server de manera satisfactoria.
 
