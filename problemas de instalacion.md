@@ -48,6 +48,7 @@ sudo netplan apply
 - Seleccionar "Red"
 - Verificar que haya un adaptador, y de no haberlo, crearlo.
 - El adaptador tiene que tener una direccion IP, asi como el servidor DHCP activado como se muestra en la imagen.
+![Screenshot From 2025-01-28 20-08-20](https://github.com/user-attachments/assets/4f6906da-417f-42de-8aae-466cad74ab13)
 
 
 #### Posible solucion para arreglar el DHCP (por confirmar).
