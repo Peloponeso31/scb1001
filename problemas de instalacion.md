@@ -80,3 +80,8 @@ network:
 ```
 
 Siendo `enp0s8` su interfaz solo anfitrión.
+
+Cuando verifiquen que su netplan esta correctamente configurado, pueden dar el comando.
+```sh
+sudo netplan apply
+```
