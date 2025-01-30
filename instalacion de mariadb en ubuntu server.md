@@ -19,3 +19,10 @@ Para verificar que este correctamente instalado, ver la salida del siguiente com
 ```sh
 systemctl status mariadb.service
 ```
+
+Por ultimo, se debe modificar el archivo `/etc/mysql/mariadb.conf.d/50-server.cnf` en la linea referente a bind-address para poder publicitar el servicio.
+```sh
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
+```
+
+Este debe decir ```bind-address = 0.0.0.0```, esto habilita el servicio en red y accesible remotamente.
