@@ -32,4 +32,4 @@ Por ultimo, se debe de reiniciar el servicio de MariaDB.
 sudo systemctl restart mariadb.service
 ```
 
-En este punto, no se puede acceder remotamente aun, ya que hay que configurar un usuario capaz de acceder remotamente.
+En este punto, no se puede acceder remotamente aun, ya que hay que [configurar un usuario capaz de acceder remotamente](https://github.com/Peloponeso31/scb1001/blob/main/crear%20usuario%20administrativo.md).
