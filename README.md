@@ -1,12 +1,12 @@
-# Curso de Administracion de Base de Datos [SCB-1001].
+# Curso de Administración de Base de Datos [SCB-1001].
 ## Objetivo del curso.
 Esta asignatura esta orientada a capacitar a los estudiantes en la selección, implementación y administración de sistemas de gestión de bases de datos (SGBD), con el fin de optimizar el almacenamiento, organización y acceso a la información en entornos organizacionales.
 
 ## Requisitos del alumno.
 ### Requisitos materiales.
 - El alumno deberá contar con un equipo de cómputo capaz de ejecutar máquinas virtuales.
-- Se recomienda el uso de Oracle VirtualBox como virtualizador, sin embargo, la elección queda a criterio del alumno, siempre que se cumplan los requisitos de red.
-- A lo largo del curso, se utilizará la distribución Linux Ubuntu Server. No obstante, los alumnos con experiencia previa en otra distribución pueden optar por utilizarla.
+- Se recomienda el uso de [Oracle VirtualBox](https://www.virtualbox.org/) como virtualizador, sin embargo, la elección queda a criterio del alumno, siempre que se cumplan los requisitos de red.
+- A lo largo del curso, se utilizará la distribución Linux [Ubuntu Server](https://ubuntu.com/download/server#manual-install) en su version mas reciente. No obstante, los alumnos con experiencia previa en otra distribución pueden optar por utilizarla.
 - El sistema operativo de la computadora del alumno puede ser cualquiera. Sin embargo, será responsabilidad del estudiante investigar cómo realizar determinadas tareas en su entorno.
 
 ### Requisitos de red.
