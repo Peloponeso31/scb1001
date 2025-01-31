@@ -1,4 +1,4 @@
-# Modificar archivo hosts
+# Modificar archivo `hosts`
 
 Dependiendo de si estamos trabajando bajo Windows o Linux, los archivos se encuentran en:
 - Windows: `C:\Windows\System32\Drivers\etc\hosts`.
