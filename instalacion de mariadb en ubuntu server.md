@@ -26,3 +26,10 @@ sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
 ```
 
 Este debe decir ```bind-address = 0.0.0.0```, esto habilita el servicio en red y accesible remotamente.
+
+Por ultimo, se debe de reiniciar el servicio de MariaDB.
+```sh
+sudo systemctl restart mariadb.service
+```
+
+En este punto, no se puede acceder remotamente aun, ya que hay que configurar un usuario capaz de acceder remotamente.
