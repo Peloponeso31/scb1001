@@ -24,3 +24,4 @@
 - Abrir una nueva terminal/cmd/powershell.
 - Escribir en la terminal "mysql --version" o "mariadb --version" sin las comillas.
 - Si la salida es similar a la de la siguiente imagen, el cliente de MariaDB esta instalado con exito.
+![image](https://github.com/user-attachments/assets/e3d327c4-480c-4e1f-b6e8-c514d0ffc61f)
