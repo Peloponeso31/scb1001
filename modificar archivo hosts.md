@@ -13,7 +13,7 @@ Para agregar un hosts, se sigue la siguiente sintaxis:
 [Direccion IP] [Nombre]
 ```
 
-Por ejemplo, si queremos crear un nombre para uno de nuestros guespedes de VirtualBox, asumiendo que este tiene la direccion IP `192.168.56.101`, tenemos que agregar lo siguiente al final de nuestro archivo hosts:
+Por ejemplo, si queremos crear un nombre para uno de nuestros huespedes de VirtualBox, asumiendo que este tiene la direccion IP `192.168.56.101`, tenemos que agregar lo siguiente al final de nuestro archivo hosts:
 ```
 192.168.56.101 database
 ```

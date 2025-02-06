@@ -14,7 +14,7 @@ Según [este post](https://forums.virtualbox.org/viewtopic.php?t=108602), asi co
 #### Previa verificación:
 
 ##### Dentro de ubuntu server, la interfaz debe estar incluida en netplan.
-Verificar que el archivo `/etc/netplan/50-cloud-init.yaml` contenga la interfaz en DHCP modo dhcp. Este se tiene que ver de esta manera, las interfaces `enp0s3` y `enp0s8` tienen que estar declaradas dentro de este. Los nombres pueden variar:
+Verificar que el archivo `/etc/netplan/50-cloud-init.yaml` contenga la interfaz Solo Anfitrion en DHCP. Este se tiene que ver de esta manera, las interfaces `enp0s3` y `enp0s8` tienen que estar declaradas dentro de este. Los nombres pueden variar:
 ```yaml
 network:
     ethernets:
