@@ -36,9 +36,9 @@ En este curso, necesitamos configurar dos interfaces de red. Una permitirá que 
 - En "Controlador: IDE", selecciona "Vacío" y haz clic en el icono de disco.
 - Elige "Seleccionar un archivo de disco" y carga la ISO de Ubuntu Server.
 ### Iniciar la instalación
-    Haz clic en "Iniciar" para arrancar la VM.
-    Sigue las instrucciones del instalador de Ubuntu Server.
-    Configura la red y las opciones según tu preferencia.
+- Haz clic en "Iniciar" para arrancar la VM.
+- Sigue las instrucciones del instalador de Ubuntu Server.
+- Configura la red y las opciones según tu preferencia.
 
 ## Pasos generales para la instalacion del servidor
 Asumiendo que recibimos una computadora nueva y sellada que vamos a utilizar como servidor.
@@ -51,8 +51,18 @@ Esta instalacion es muy sencilla, parecida incluso a la instalacion de un progra
 ### Marcar para instalacion el paquete de servidor SSH.
 Durante la instalación, selecciona la opción para instalar el servidor SSH, este permitira el acceso remoto.
 
+La pantalla en cuestión se ve asi:
+
+![image](https://github.com/user-attachments/assets/22dc41f1-9ccd-44ea-8fb1-ff7236886f62)
+
+
 ### Definir hostname, nombre de usuario y contraseña del servidor.
 Asigna un nombre al servidor y crea un usuario con su respectiva contraseña para la administración. Debes memorizar este usuario y contraseña que asignes.
+
+La pantalla donde definen eso, se ve asi:
+
+![image](https://github.com/user-attachments/assets/bd1379b2-3751-402c-9e00-026f2d363370)
+
 
 ### Iniciar el servidor con el sistema operativo instalado.
 Una vez finalizada la instalación, reinicia la máquina y accede al sistema con las credenciales anteriormente creadas.
@@ -96,7 +106,7 @@ sudo systemctl restart mariadb.service
 ```
 
 ### Crear un usuario administrativo en MariaDB.
-Refierase a crear usuario administrativo. Este nos permitira el acceso remoto.
+Refierase a [crear usuario administrativo](https://github.com/Peloponeso31/scb1001/blob/main/unidades%201%20y%202/crear%20usuario%20administrativo.md). Este nos permitira el acceso remoto.
 
 ### Probar conexion desde otro host con un cliente de MariaDB, ya sea CLI o por medio de alguna aplicación.
 Deben tener un cliente de mariadb instalado, de no tenerlo, refierase a la guia para instalar el cliente de linea de comandos.
