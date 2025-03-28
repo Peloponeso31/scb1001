@@ -37,7 +37,7 @@ Si vamos a http://database:8025/ deberemos poder ver la interfaz web de mailpit.
 ## Configuracion de grafana
 Para poder enviar correos electronicos de alertas mediante grafana, deberemos de abrir el archivo grafana.ini, es un archivo bastante largo, por lo que le daremos el argumento `+n` para abrirlo en la linea 1034.
 ```bash
-sudo nano +1034 /etc/grafana/grafana.ini
+sudo nano +1060 /etc/grafana/grafana.ini
 ```
 
 El archivo se abrira en la seccion `[smtp]`.
