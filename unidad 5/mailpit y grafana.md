@@ -42,7 +42,7 @@ sudo nano +1034 /etc/grafana/grafana.ini
 
 El archivo se abrira en la seccion `[smtp]`.
 
-Refiriendonos a la documentacion de mailpit, esta nos dice que el servidor smtp corre en el puerto 1025, por lo cual deberemos editar el archivo para que quede de la siguiente manera:
+Refiriendonos a la documentacion de mailpit, esta nos dice que el servidor smtp corre en el puerto 1060, por lo cual deberemos editar el archivo para que quede de la siguiente manera:
 ```
 [smtp]
 enabled = true
