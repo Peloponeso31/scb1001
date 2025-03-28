@@ -111,7 +111,7 @@ nano config.my.cnf
 
 Teniendo en cuenta lo anterior, el contenido del archivo debera ser el siguiente:
 ```
-[user]
+[client]
 user = exporter
 password = CAMBIAR_ESTE_PASSWORD
 ```
