@@ -25,7 +25,7 @@ Al terminar de instalarse, crearemos un archivo de unidad de systemd:
 sudo nano /etc/systemd/system/mailpit.service
 ```
 
-Al terminarlo, ctivamos e iniciamos el servicio:
+Al terminarlo, activamos e iniciamos el servicio:
 ```bash
 sudo systemctl enable --now mailpit.service
 ```
