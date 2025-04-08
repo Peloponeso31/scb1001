@@ -99,7 +99,7 @@ sudo chown -R mysql:mysql /etc/mysql/ssl
 
 Ponemos los permisos al archivo `database.key` de tal modo que solo el dueño puede leer y escribir.
 ```sh
-sudo chmod 600 /etc/mysql/ssl/mariadb.key
+sudo chmod 600 /etc/mysql/ssl/database.key
 ```
 
 Abrimos el archivo `/etc/mysql/mariadb.conf.d/50-server.cnf` y vamos a la seccion `SSL/TLS`, esta seccion nos tiene que quedar de la siguiente manera:
@@ -107,7 +107,7 @@ Abrimos el archivo `/etc/mysql/mariadb.conf.d/50-server.cnf` y vamos a la seccio
 ssl-ca = /etc/mysql/ssl/ca.crt
 ssl-cert = /etc/mysql/ssl/database.crt
 ssl-key = /etc/mysql/ssl/database.key
-require-sercure-transport = on
+require-secure-transport = on
 ```
 
 Para finalizar, reiniciamos el servicio de `mariadb`
