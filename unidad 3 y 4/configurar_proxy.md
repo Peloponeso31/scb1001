@@ -64,7 +64,7 @@ password=maxscale_pw
 [Splitter-Listener]
 type=listener
 service=Splitter-Service
-port=3310
+port=3306
 ssl=true
 ssl_ca=/ruta/al/server//ca.crt
 ssl_key=/ruta/al/server/proxy.key
