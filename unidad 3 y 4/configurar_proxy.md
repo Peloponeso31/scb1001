@@ -2,6 +2,22 @@
 
 ⚠️⚠️ __UNDER CONSTRUCTION__ ⚠️⚠️
 
+## Agregar el repositorio de MariaDB.
+Si se esta usando Ubuntu 24.04 LTS, pueden usar el comando dado por MariaDB:
+```sh
+curl -LsS https://r.mariadb.com/downloads/mariadb_repo_setup | sudo bash
+```
+
+De lo contrario, se debera forzar la version:
+```sh
+curl -LsS https://r.mariadb.com/downloads/mariadb_repo_setup | sudo bash -s -- --os-type=ubuntu --os-version=noble
+```
+
+Ahora, MaxScale podra ser instalable:
+```sh
+sudo apt install maxscale
+```
+
 ## Estructura de directorios recomendada para guardar los certificados SSL/TLS.
 ```
 /etc/
@@ -33,6 +49,7 @@ sudo chmod 655 -R /etc/maxscale.cnf.d/tls
 ```
 
 ## Archivo de configuracioón de ejemplo, cambiar a conveniencia.
+Abran el archivo `/etc/maxscale.cnf` para que se vea como lo siguiente:
 ```cnf
 [maxscale]
 threads=auto
