@@ -48,7 +48,7 @@ Todos estos certificados deben ser visibles por grupo y todos (655).
 sudo chmod 655 -R /etc/maxscale.cnf.d/tls
 ```
 
-## Archivo de configuracioón de ejemplo, cambiar a conveniencia.
+## Archivo de configuración de ejemplo, cambiar a conveniencia.
 Abran el archivo `/etc/maxscale.cnf` para que se vea como lo siguiente:
 ```cnf
 [maxscale]
