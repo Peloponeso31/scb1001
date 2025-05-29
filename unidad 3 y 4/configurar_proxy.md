@@ -27,6 +27,11 @@
             └── proxy.key
 ```
 
+Todos estos certificados deben ser visibles por grupo y todos (655).
+```sh
+sudo chmod 655 -R /etc/maxscale.cnf.d/tls
+```
+
 ## Archivo de configuracioón de ejemplo, cambiar a conveniencia.
 ```cnf
 [maxscale]
